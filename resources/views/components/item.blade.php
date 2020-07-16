@@ -1,0 +1,1 @@
+<li>{{'name'}} [{{$item['mail']}}]</li>
