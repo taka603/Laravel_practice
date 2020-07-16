@@ -12,7 +12,8 @@ function tag($tag, $txt) {
 class HelloController extends Controller
 {
     public function index(Request $request)
-  {
-   return view('hello.index');
+    {
+        
+        return view('hello.index');
     }
 }
