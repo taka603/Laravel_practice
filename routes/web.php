@@ -16,6 +16,5 @@ use App\Http\Middleware\HelloMiddleware;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('hello', 'HelloController@index')
-    ->middleware('hello');
+Route::get('hello', 'HelloController@index');
 Route::post('hello', 'HelloController@post');
