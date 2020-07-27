@@ -7,9 +7,6 @@ use Illuminate\Http\Response;
 use App\Http\Requests\HelloRequest;
 use Validator;
 
-function tag($tag, $txt) {
-    return "<{$tag}>" . $txt . "</{$tag}>";
-}
 
 class HelloController extends Controller
 {
