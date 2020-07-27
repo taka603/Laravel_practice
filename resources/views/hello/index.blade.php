@@ -29,7 +29,7 @@
       <tr><th>ERROR</th>
       <td>{{$message}}</td></tr>
       @enderror
-      <tr><th>ERROR</th><td><input type="text" name="age" value="{{old('age')}}"></td></tr>
+      <tr><th>age: </th><td><input type="text" name="age" value="{{old('age')}}"></td></tr>
       <tr><th></th><td><input type="submit" value="send"></td></tr>
   </table> 
   </form>
