@@ -11,7 +11,7 @@ class Myrule implements Rule
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($n)
     {
         $this->num = $n;
     }
